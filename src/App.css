@@ -1,0 +1,165 @@
+/*page1*/
+.table {
+  font-family: arial, sans-serif;
+  width: 95%;
+  height: 190px;
+  margin-left: 70px;
+  margin-top: 2.5%;
+  border-collapse: 'collapse';
+   
+}
+td,th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+th {
+  background-color: lightblue;
+  padding:15px;
+}
+
+.button2 {
+  font-size: 13px;
+  width: 110px;
+
+}
+.filter input{
+  margin-left: 5%;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.wrapper{
+  flex:1;
+  margin-left: 1%;
+  margin-top: 2%;
+
+}
+
+@media screen and (max-width: 800px)
+ {
+  .container{
+    flex-direction: column;
+  }
+ 
+ 
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+/*page2*/
+.pollquestion{
+  margin-left: 1%;
+}
+
+.pollqtable{
+  margin-left: 1%;
+}
+
+
+.votepollbtn{
+  margin-left:1%;
+}
+
+
+
+
+
+/*page3*/
+
+
+
+/*page4*/
+
+.createpollq
+{
+  background-color: rgb(217, 235, 245);
+  height: 89%;
+  width: 50%;
+ 
+  margin-top: 20px;
+  margin-left: 5px;
+ 
+}
+.createpollqbtn{
+  background-color: white;
+}
+.headingq{
+  margin-left: 3%;
+}
+
+.answopt{
+  margin-left: 3%;
+}
+
+.commaseptags{
+  margin-left: 3%;
+}
+.button4{
+  font-size: 13px;
+  width: 140px;
+  height: 30px;
+  
+}
+
+
+.addoptionbtn{
+  font-size: 13px;
+  width: 110px;
+  
+}
+
+
+.button3{
+  margin-left: 10px;
+}
+
+.buttonV{
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .createpollq {
+    width: 100%;
+    margin-left: 3%;
+   
+  }
+  .headingq, .answopt, .commaseptags {
+    margin-left: 3%;
+    width:100%;
+  }
+  .button4, .addoptionbtn {
+    width: 100px;
+    font-size: 12px;
+    margin-left: 3%;
+
+  }
+  .addoptionbtn {
+    width: 100px;
+    font-size: 12px;
+    margin-left: 3%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

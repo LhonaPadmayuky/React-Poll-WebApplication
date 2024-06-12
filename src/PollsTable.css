@@ -1,0 +1,22 @@
+
+.wrap-cell {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    line-height: 1.0;
+     
+  }
+  
+  @media (min-width: 1024px) {
+    .wrap-cell {
+      text-align: center; 
+    }
+  }
+  
+  
+  .MuiDataGrid-columnHeader,
+  .MuiDataGrid-cell {
+    display: flex;
+    align-items: center;
+  }
+  
