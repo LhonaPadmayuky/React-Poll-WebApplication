@@ -2,7 +2,7 @@
 
 
 
-This is the frontend of the **Poll Web Application** built using **React.js**. The application allows users to create polls, vote on them, and view real-time poll results. It interacts with the backend API to handle user authentication, poll management, and voting operations.
+This is the frontend of the **Poll Web Application** built using **React.js**. The application allows users to create polls, vote on them, and view real-time poll results. It interacts with the backend API to handle poll management, and voting operations.
 
 ## Features
 
